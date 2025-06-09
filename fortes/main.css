@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(#FFFFFF, #7AA61C);
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#formulario{
+    background-color: #C3D996;
+    height: 380px;
+    width: 100%;
+    border-radius: 25px;
+    border: solid, 1px, #484848;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#geral{
+    margin: auto;
+    width: 486px;
+    height: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#esqueci{
+    color: #484848;
+}
+
+p{
+    color: #484848;
+}
+
+#botao{
+    color: #7AA61C;
+    background-color: #484848;
+    width: 25%;
+    height: 15%;
+    font-size: 14px;
+}
+
+#senha, #email{
+    width: 60%;
+}
