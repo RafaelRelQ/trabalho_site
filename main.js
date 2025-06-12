@@ -1,0 +1,14 @@
+function dropdown1(){
+    const dropdown = document.getElementById('dropdown1')
+    dropdown.style.display = dropdown.style.display === "flex" ? "none" : "flex";
+};
+
+function dropdown2(){
+    const dropdown = document.getElementById('dropdown2')
+    dropdown.style.display = dropdown.style.display === "flex" ? "none" : "flex";
+};
+
+function dropdown3(){
+    const dropdown = document.getElementById('dropdown3')
+    dropdown.style.display = dropdown.style.display === "flex" ? "none" : "flex";
+};
