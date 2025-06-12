@@ -71,6 +71,17 @@ p{
 }
 
 #estrela{
-    width: 5%;
-    height: auto;
+    width: 2%;
+    height: 2%;
+    margin-left: 1%;
+}
+#estrela2 {
+    width: 2%;
+    height: 2%;
+    margin-left: 0%;
+}
+
+#avaliacao{
+    margin-left: 0.5%;
+    padding: 0;
 }
