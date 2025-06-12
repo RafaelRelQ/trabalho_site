@@ -42,6 +42,12 @@ body{
     margin-top: 0.5%;
     width: 24%;
     height: auto;
+    transition-duration:0.4s;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background-color: #4c690d;
 }
 
 #user{
