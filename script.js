@@ -7,7 +7,7 @@ send.addEventListener('click', function(event) {
     const password = pass.value
     const e_mail = user.value
     if((e_mail === 'admin@fortes.com.br' || e_mail === 'cooperativas@fortes.com.br') && password === '123456'){
-    window.location.href = "home.html"
+    window.location.href = "inicio.html"
     }else if(e_mail != 'admin@fortes.com.br' && e_mail != 'cooperativas@fortes.com.br'){
         alert('The email is wrong')
     }else if(password != '123456'){
