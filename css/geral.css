@@ -345,9 +345,8 @@ p{
     width: 180px;
     padding: 20px 10px;
     border-radius: 15px;
-    /* tire o margin-top, pois agora o container já tem margem */
     gap: 15px;
-    height: fit-content; /* para o menu ficar do tamanho do conteúdo */
+    height: fit-content;
 }
 .fastmenu p {
     color: #fff;
@@ -385,7 +384,7 @@ p{
 }
 
 .cancel{
-        border: none;
+    border: none;
     border-radius: 8px;
     background-color: #ff2f2f;
     transition-duration: 0.2s;
@@ -396,4 +395,63 @@ p{
     text-decoration: none;
     color: #fff;
     text-align: center;
+}
+
+.cancel:hover{
+    background-color: #ff2f2f85;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.popup-conteudo {
+  background: #7AA61C;
+  padding: 20px;
+  margin: 10% auto;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  color: #000;
+}
+
+.fechar {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.avaliar{
+    border: none;
+    border-radius: 8px;
+    background-color: #ff2f2f;
+    transition-duration: 0.2s;
+    width: 12%;
+    height: 5%;
+    margin-left: 8%;
+    margin-top: 14%;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.avaliar2{
+    border: none;
+    border-radius: 8px;
+    background-color: #76bb87;
+    transition-duration: 0.2s;
+    margin-top: 5%;
+}
+
+.avaliar2:hover{
+    background-color: #4b7756;
 }

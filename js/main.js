@@ -18,3 +18,10 @@ function confirmar(){
         alert("Erro, Falha de Cancelamento")
     }else{alert("Cancelamento não feito")}
 };
+function abrirPopup() {
+  document.getElementById("popup").style.display = "block";
+}
+
+function fecharPopup() {
+  document.getElementById("popup").style.display = "none";
+}
