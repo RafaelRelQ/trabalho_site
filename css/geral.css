@@ -223,6 +223,13 @@ p{
 }
 
 #imgdesc{
+    width: 15%;
+    height: 30%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#imgmap{
     width: 25%;
     height: 22vh;
     border-radius: 20px;
