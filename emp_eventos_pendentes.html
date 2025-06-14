@@ -22,10 +22,33 @@
             <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Logo user" id="user">
         </div>
     </div>
-    <div id="estado_evento">
-        <a id="btnest" href="emp_eventos_pendentes.html">Pendentes🕰️</a>
-        <a id="btnest" href="emp_eventos_confirmados.html">Confirmados✅</a>
-        <a id="btnest" href="emp_eventos_concluidos.html">Concluidos☑️</a>
+<div id="main-container">
+        <div class="fastmenu">
+            <p>Menu</p>
+            <a id="btnfst" href="emp_eventos_pendentes.html">Pendentes</a>
+            <a id="btnfst" href="emp_eventos_confirmados.html">Confirmados</a>
+            <a id="btnfst" href="emp_eventos_concluidos.html">Concluidos</a>
+        </div>
+<div id="content-container" style="flex: 1;">
+ <div id="evento">
+        <div class="event_inf">
+        <div id="desc">
+            <p>Evento Será realizado dia : 12/9/2022</p>
+            <p>Nenhuma compania de descarte se comprome-teu com este evento, ainda.</p>
+        </div>
+        </div>
+        <button onclick="confirmar();" class="cancel">Cancelar</button>
+    </div>
+     <div id="evento">
+        <div class="event_inf">
+        <div id="desc">
+            <p>Evento Será Realizado 28/3/2021</p>
+            <p>Empresa de descarte BC Ainda não aceitou ser parceira do evento</p>
+        </div>
+        </div>
+        <button onclick="confirmar();" class="cancel">Cancelar</button>
+    </div>
+    </div>
     </div>
     <script src='js/main.js'></script>
 </body>

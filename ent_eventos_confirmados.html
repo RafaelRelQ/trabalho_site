@@ -12,7 +12,7 @@
 <body>
     <div class="row" id="nav">
         <div class="col-2">
-            <h2><a href="ent_inicio.html" id="h2">Menu</a></h2>
+            <h2><a id="h2" href="ent_inicio.html">Menu</a></h2>
         </div>
         <div class="col-9">
             <a class="btn" id="botao" href="ent_empresa_descarte.html">Compania de Descarte</a>
@@ -20,13 +20,36 @@
             <a class="btn" id="botao" href="ent_meus_eventos.html">Meus Eventos</a>
         </div>
         <div class="col-1">
-            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Logo user" id="user">
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="img user" id="user">
         </div>
+        </div>
+<div id="main-container">
+        <div class="fastmenu">
+            <p>Menu</p>
+            <a id="btnfst" href="ent_eventos_pendentes.html">Pendentes</a>
+            <a id="btnfst" href="ent_eventos_confirmados.html">Confirmados</a>
+            <a id="btnfst" href="ent_eventos_concluidos.html">Concluidos</a>
+        </div>
+<div id="content-container" style="flex: 1;">
+ <div id="evento">
+        <div class="event_inf">
+        <div id="desc">
+            <p>Evento Será realizado dia : 12/9/2022</p>
+            <p>Empresa de descarte Emile comprometeu-se como a parceira do evento</p>
+        </div>
+        </div>
+        <button onclick="confirmar();" class="cancel">Cancelar</button>
     </div>
-  <div id="estado_evento">
-        <a id="btnest" href="ent_eventos_pendentes.html">Pendentes🕰️</a>
-        <a id="btnest" href="ent_eventos_confirmados.html">Confirmados✅</a>
-        <a id="btnest" href="ent_eventos_concluidos.html">Concluidos☑️</a>
+     <div id="evento">
+        <div class="event_inf">
+        <div id="desc">
+            <p>Evento pronto para ser Realizado 28/3/2021</p>
+            <p>Empresa de descarte BC comprometeu-se como  parceira do evento</p>
+        </div>
+        </div>
+        <button onclick="confirmar();" class="cancel">Cancelar</button>
+    </div>
+    </div>
     </div>
     <script src='js/main.js'></script>
 </body>
